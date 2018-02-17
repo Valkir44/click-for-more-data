@@ -56,7 +56,7 @@ function renderHTML(data) {
         }
 
         htmlStr += ' and dislikes ';
-        
+
         // loops obj and search keys
         for (let x = 0; x < data[i].foods.dislikes.length; x++) {
             if (x == 0) {

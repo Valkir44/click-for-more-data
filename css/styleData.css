@@ -1,6 +1,15 @@
-html, body {
+body {
     padding: 0;
     margin: 0;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
 }
 
 .hide {
@@ -22,7 +31,7 @@ body {
 }
 
 button {
-    background-color: #046380;
+    background-color: #800404db;
     color: #FFF;
     border: none;
     padding: 10px 15px;
@@ -30,7 +39,7 @@ button {
     border-radius: 4px;
     cursor: pointer;
     outline: none;
-    box-shadow: 2px 2px 0 #034154;
+    box-shadow: 2px 2px 0 #80040473;
     margin-bottom: 10px;
     margin-left: 18px;
     transition: opacity .4s ease-out, transform .4s ease-out, visibility .4s ease-out;
@@ -39,11 +48,11 @@ button {
 }
 
 button:hover {
-    background-color: #034F66;
+    background-color: rgba(128, 4, 4, 0.67);
 }
 
 button:active {
-    background-color: #034154;
+    background-color: rgba(128, 17, 26, 0.6);
     box-shadow: none;
     position: relative;
     top: -8px;
